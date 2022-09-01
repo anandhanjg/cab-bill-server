@@ -1,0 +1,15 @@
+module.exports=Object.freeze({
+    tables:{
+        users:'users',
+        travels:'travels',
+        invoices:'invoices',
+        addressess:'addresses'
+    },
+    BillTypes:{
+        KM_AND_VEH_CHARGE:'KM_AND_VEH_CHARGE',
+        KM_CHARGE:'KM_CHARGE',
+        HOUR_CHARGE:'HOUR_CHARGE',
+        HOUR_AND_KM_CHARGE:'HOUR_AND_KM_CHARGE',
+        PACKAGE:'PACKAGE'
+    }
+})
