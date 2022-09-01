@@ -13,7 +13,8 @@ class Invoice{
             console.log(path.join(__dirname,'../views/bill.ejs'));
             let html=await ejs.renderFile(path.join(__dirname,'../views/bill.ejs'),{},{});
             // wkhtmltopdf(html).pipe(res);
-            res.json({html});
+            // res.json({html});
+            res.send(html);
         }catch(err){
             next(err);
         }
